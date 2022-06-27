@@ -2,5 +2,5 @@
 
 public interface ICost
 {
-    public int Cost { get; }
+    public int CostValue { get; }
 }

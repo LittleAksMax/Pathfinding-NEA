@@ -3,24 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathfindingApp", "PathfindingApp\PathfindingApp.csproj", "{DE91F714-CD10-41A8-92B9-87084A98A996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PathfindingApp", "PathfindingApp\PathfindingApp.csproj", "{DE91F714-CD10-41A8-92B9-87084A98A996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLib", "GraphLib\GraphLib.csproj", "{4A10C8BB-E78C-41AB-824A-1AE58A1FD35E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphLib", "GraphLib\GraphLib.csproj", "{4A10C8BB-E78C-41AB-824A-1AE58A1FD35E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmLib", "AlgorithmLib\AlgorithmLib.csproj", "{381BF40C-7D38-49C9-9A1F-26EE380906BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmLib", "AlgorithmLib\AlgorithmLib.csproj", "{381BF40C-7D38-49C9-9A1F-26EE380906BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib", "CommonLib\CommonLib.csproj", "{3AB0E4AA-B675-4163-BC7D-6B6E985CDCF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLib", "CommonLib\CommonLib.csproj", "{3AB0E4AA-B675-4163-BC7D-6B6E985CDCF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmLib.Tests", "AlgorithmLib.Test\AlgorithmLib.Tests.csproj", "{B934EA93-C8D6-4AD3-9F92-42754C8B983E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmLib.Tests", "AlgorithmLib.Test\AlgorithmLib.Tests.csproj", "{B934EA93-C8D6-4AD3-9F92-42754C8B983E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLib.Tests", "CommonLib.Test\CommonLib.Tests.csproj", "{85321A05-5DA9-43E5-A35A-E1658845014F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLib.Tests", "CommonLib.Test\CommonLib.Tests.csproj", "{85321A05-5DA9-43E5-A35A-E1658845014F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphLib.Tests", "GraphLib.Test\GraphLib.Tests.csproj", "{9AE4CAE4-3B0C-49C2-8049-7BAB90B041BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphLib.Tests", "GraphLib.Test\GraphLib.Tests.csproj", "{9AE4CAE4-3B0C-49C2-8049-7BAB90B041BA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C0AAB60-70FA-4A93-B732-0A80F62BDA7C}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3084D34E-3BE1-4F84-9D58-F2289BB9FC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Tests", "DataAccess.Tests\DataAccess.Tests.csproj", "{AAC8E94C-7D7D-441C-8E3A-F7D54A5B72B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +60,14 @@ Global
 		{9AE4CAE4-3B0C-49C2-8049-7BAB90B041BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AE4CAE4-3B0C-49C2-8049-7BAB90B041BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AE4CAE4-3B0C-49C2-8049-7BAB90B041BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3084D34E-3BE1-4F84-9D58-F2289BB9FC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3084D34E-3BE1-4F84-9D58-F2289BB9FC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3084D34E-3BE1-4F84-9D58-F2289BB9FC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3084D34E-3BE1-4F84-9D58-F2289BB9FC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC8E94C-7D7D-441C-8E3A-F7D54A5B72B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC8E94C-7D7D-441C-8E3A-F7D54A5B72B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC8E94C-7D7D-441C-8E3A-F7D54A5B72B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC8E94C-7D7D-441C-8E3A-F7D54A5B72B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

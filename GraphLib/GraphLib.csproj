@@ -10,10 +10,8 @@
     <Folder Include="Base\" />
     <Folder Include="Interfaces\Builders\" />
     <Folder Include="Interfaces\Factories\" />
-    <Folder Include="Interfaces\Neighbourhoods\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Realizations\Factories\" />
-    <Folder Include="Realizations\Neighbourhoods\" />
     <Folder Include="Realizations\Builders\" />
   </ItemGroup>
 

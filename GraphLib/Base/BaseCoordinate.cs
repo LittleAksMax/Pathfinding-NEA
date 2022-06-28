@@ -6,6 +6,8 @@ public class BaseCoordinate : ICoordinate
 {
     protected readonly int[] _coordinateValues;
 
+    public int Dimensions { get; }
+    
     /// <summary>
     /// Gets the value of the coordinate component in the given dimension
     /// </summary>

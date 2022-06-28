@@ -2,5 +2,7 @@
 
 public interface ICoordinate
 {
+    int Dimensions { get; }
+    
     int GetCoordinateValue(int dimension);
 }

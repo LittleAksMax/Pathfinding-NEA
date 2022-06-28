@@ -25,4 +25,10 @@
     <ProjectReference Include="..\GraphLib\GraphLib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="NullRealizations" />
+    <Folder Include="Realizations\Factories" />
+    <Folder Include="Realizations\Neighbourhoods" />
+  </ItemGroup>
+
 </Project>

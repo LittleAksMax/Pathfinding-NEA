@@ -1,5 +1,4 @@
-﻿using GraphLib.Base;
-using GraphLib.Interfaces;
+﻿using GraphLib.Interfaces;
 using GraphLib.Realizations.Coordinates;
 using GraphLib.Realizations.Extensions;
 
@@ -23,11 +22,26 @@ public class CoordinateExtensionTests
 
     [Theory]
     [MemberData(nameof(EqualComponentTestData))]
-    [MemberData(nameof(UnequalComponentTestData))]
-    public void IsEqual_ShouldCheckIfComponentsAreEqual((ICoordinate, ICoordinate, bool) data)
+    public void IsEqual_ShouldReturnTrueSinceComponentsAreEqual((ICoordinate, ICoordinate) data)
     {
         // Arrange
-        var (self, coordinate, expected) = data;
+        var (self, coordinate) = data;
+        bool expected = true;
+
+        // Act
+        bool actual = self.IsEqual(coordinate);
+
+        // Assert
+        Assert.Equal(expected, actual);
+    }
+
+    [Theory]
+    [MemberData(nameof(UnequalComponentTestData))]
+    public void IsEqual_ShouldReturnFalseSinceComponentsAreUnequal((ICoordinate, ICoordinate) data)
+    {
+        // Arrange
+        var (self, coordinate) = data;
+        bool expected = false;
         
         // Act
         bool actual = self.IsEqual(coordinate);
